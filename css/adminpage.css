@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+ font-family: 'Barlow', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+.adminmain-container{
+    display:flex;
+    max-width: 100%;
+}
+.dashdiv{
+    flex:1;
+    /* max-width: 100%; */
+    margin-left: 65px;
+}
+.menudiv{
+   position:fixed;
+     z-index: 999; 
+    width: 200px;
+
+
+}

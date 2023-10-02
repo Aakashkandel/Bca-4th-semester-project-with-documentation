@@ -1,0 +1,162 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+body{
+    /* background-image: linear-gradient(to right bottom, #051937, #052d60, #04438c, #065aba, #1271eb); */
+    height: 100vh;
+    background:rgba(128, 128, 128, 0.252);
+}
+
+.main-container-pl{
+
+ 
+    flex-basis: 60%;
+    display: flex;
+    justify-content:center;
+    width:80%;
+    height: 70vh;
+    padding:30px;
+ 
+    margin:auto;
+
+  
+}
+.innercontainer-pl1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  
+    max-width: 100%;
+    padding:10px;
+    border-radius:15px;
+    
+  
+}
+
+.productitem-pl
+{
+    background: #0693ba98;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+    padding:20px 10px;
+    width: 98%;
+    
+   
+   
+
+}
+.productitem-pl label{
+    font-size: 18px;
+    color:rgba(0, 0, 0, 0.829);
+
+}
+.productitem-pl input{
+    font-size: 15px;
+    padding:5px 5px 5px 10px;
+    border-radius: 15px;
+    outline: none;
+    border:none;
+ width: 53%;
+ background-color: rgba(229, 243, 238, 0.833);
+
+  
+}
+.imagediv{
+  
+    height: auto;
+    width:50%;
+    margin: 0px 25px;
+   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+   
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  
+}
+.imagediv img{
+    max-width:80%;
+   
+    
+    
+}
+.productbio{
+    background: #0693ba98;;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    margin-top: 20px;
+    height: 22vh;
+    padding:10px;
+    border-radius:15px;
+}
+ .productbio input{
+    width:90%;
+    height: 15vh;
+    border-radius:15px;
+    border:none;
+    overflow: scroll;
+    padding:0% 5%;
+   
+    
+ }
+ .productbio h2{
+    color:bisque;
+    font-size: 20px;
+    
+ }
+ .listbtn{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+
+ }
+ .listbtn input{
+    border:none;
+    padding:10px 20px;
+    border-radius:10px;
+    background-color: green;
+    color:white;
+    font-size: 15px;
+    
+
+ }
+
+ .listbtn a{
+    border:none;
+    padding:10px 20px;
+    border:none;
+    border-radius:10px;
+    background-color:#fff;
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+    margin:0px 10px;
+
+ }
+
+
+ .productlist-title{
+    
+    color:black;
+   padding: 5px 30px;
+
+   background: rgba(255, 255, 255, 0.11);
+
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(6.6px);
+   -webkit-backdrop-filter: blur(6.6px);
+    
+ }

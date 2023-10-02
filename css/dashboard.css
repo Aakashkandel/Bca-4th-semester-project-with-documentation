@@ -1,0 +1,507 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+ font-family: 'Barlow', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+}
+body{
+    background-color:#F6F4F2;
+}
+
+.dash-title{
+    border-bottom: 4px solid rgba(99, 97, 97, 0.245);
+    padding:10px 15px;
+    color: blue;
+    font-size:18px;
+}
+
+
+
+/* css bor boxnotice1 */
+
+
+.boxnotice{
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    /* width:250px; */
+    height:18vh;
+    margin:10px;
+    border-radius:10px;
+}
+
+.boxnotice h3{
+    text-align: center;
+    color:white;
+    margin-bottom:20px;
+    padding-top:8px;
+}
+.boxnotice-inner{
+    display:flex;
+    justify-content: space-around;
+}
+.boxnotice-info h2{
+    color:white;
+    margin-bottom:5px;
+
+}
+.boxnotice-info p{
+    color:white;
+}
+.boxnotice-icon{
+    font-size:2.75em;
+    color:rgba(64, 62, 62, 0.76);
+    
+}
+
+
+/* css for boxnotice 2 */
+
+.boxnotice2{
+    
+   
+    background: radial-gradient(919px at 1.7% 6.1%, rgb(41, 58, 76) 0%, rgb(40, 171, 226) 100.2%);
+    /* width:340px; */
+    height:18vh;
+    margin:10px;
+    border-radius:10px;
+}
+
+.boxnotice2 h3{
+    text-align: center;
+    color:white;
+    margin-bottom:20px;
+    padding-top:8px;
+}
+.boxnotice2-inner{
+    display:flex;
+    justify-content: space-around;
+}
+.boxnotice2-info h2{
+    color:white;
+    margin-bottom:5px;
+
+}
+.boxnotice2-info p{
+    color:white;
+}
+.boxnotice2-icon{
+    font-size:2.75em;
+    color:rgba(64, 62, 62, 0.76);
+    
+}
+
+
+/* css bor boxnotice 3 */
+
+.boxnotice3{
+    background: linear-gradient(109.7deg, rgb(202, 50, 50) 5.7%, rgb(252, 195, 12) 92.4%);
+    /* width:340px; */
+    height:18vh;
+    margin:10px;
+    border-radius:10px;
+}
+
+.boxnotice3 h3{
+    text-align: center;
+    color:white;
+    margin-bottom:20px;
+    padding-top:8px;
+}
+.boxnotice3-inner{
+    display:flex;
+    justify-content: space-around;
+}
+.boxnotice3-info h2{
+    color:white;
+    margin-bottom:5px;
+
+}
+.boxnotice3-info p{
+    color:white;
+}
+.boxnotice3-icon{
+    font-size:2.75em;
+    color:rgba(64, 62, 62, 0.76);
+    
+}
+
+/* css bor boxnotice 4 */
+
+.boxnotice4{
+    background: linear-gradient(69.8deg, rgb(25, 49, 108) 2.8%, rgb(1, 179, 201) 97.8%);
+    /* width:340px; */
+    height:18vh;
+    margin:10px;
+    border-radius:10px;
+}
+
+.boxnotice4 h3{
+    text-align: center;
+    color:white;
+    margin-bottom:20px;
+    padding-top:8px;
+}
+.boxnotice4-inner{
+    display:flex;
+    justify-content: space-around;
+}
+.boxnotice4-info h2{
+    color:white;
+    margin-bottom:5px;
+
+}
+.boxnotice4-info p{
+    color:white;
+}
+.boxnotice4-icon{
+    font-size:2.75em;
+    color:rgba(64, 62, 62, 0.76);
+    
+}
+
+
+.recentcustomer h3,.recentseller h3 {
+    margin-bottom:15px;
+    border-bottom:3px solid rgba(88, 57, 166, 0.493);
+    padding:5px;
+
+}
+
+
+
+
+
+
+
+
+.main-boxnotice{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    margin:70px 10px 15px 10px;
+    height:250px;
+    align-items: center;
+    border-radius:15px;
+
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(255, 255, 255, 0.37);
+
+    
+}
+
+.dash-chart{
+ margin:10px ;
+background: rgba(255, 255, 255, 0.27);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.8px);
+-webkit-backdrop-filter: blur(6.8px);
+border: 1px solid rgba(255, 255, 255, 0.37);
+border-radius:15px;
+
+    
+}
+
+.dash-container-3 {
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    height:250px;
+    align-items: center;
+  
+
+}
+
+.csdiv img{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+
+}
+
+
+.recentcustomer{
+    background: rgba(255, 255, 255, 0.27);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.8px);
+-webkit-backdrop-filter: blur(6.8px);
+border: 1px solid rgba(255, 255, 255, 0.37);
+border-radius:15px;
+margin:10px;
+
+}
+
+.recentseller{
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    border-radius:15px;
+    margin:10px;
+
+}
+
+.csdiv {
+    display:flex;
+    justify-content: space-between;
+    margin:0px 15px;
+    border-bottom: solid rgba(61, 59, 59, 0.153);
+
+}
+.csdiv span{
+    margin-top:10px;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 600px)
+{
+    .main-boxnotice{
+       grid-template-columns: 1fr;
+    height:auto;
+    width: auto;
+        margin: 0;
+    }
+    .dash-container-3{
+        grid-template-columns:1fr
+    }
+
+    .boxnotice,.boxnotice2,.boxnotice3,.boxnotice4{
+        width:290px;
+        margin:10px auto;
+        
+    }
+
+    .dash-title{
+        border-bottom: 4px solid rgba(99, 97, 97, 0.245);
+        padding:5px 10px;
+        color: blue;
+        font-size:15px;
+    }
+    .csdiv{
+        font-size:15px;
+        align-items:end;
+    }
+
+    .csdiv{
+        align-items: center;
+        
+    }
+    .recentcustomer h3,.recentseller h3 {
+        font-size:15px;
+        margin-bottom:15px;
+        border-bottom:3px solid rgba(88, 57, 166, 0.493);
+        padding:5px;
+
+    }
+    
+    .boxnotice h3 ,.boxnotice-info p h2{
+        font-size: 15px;
+    }
+    .boxnotice-icon{
+        font-size: 35px;
+    }
+
+    .boxnotice2 h3 ,.boxnotice2-info p h2{
+        font-size: 15px;
+    }
+    .boxnotice2-icon{
+        font-size: 35px;
+    }
+
+
+
+    .boxnotice2 h3 ,.boxnotice-info2 p h2{
+        font-size: 15px;
+    }
+    .boxnotice2-icon{
+        font-size: 35px;
+    }
+
+
+    .boxnotice3 h3 ,.boxnotice3-info p h2{
+        font-size: 15px;
+    }
+    .boxnotice3-icon{
+        font-size: 35px;
+    }
+
+    .boxnotice4 h3 ,.boxnotice4-info p h2{
+        font-size: 15px;
+    }
+    .boxnotice4-icon{
+        font-size: 35px;
+    }
+
+    
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+
+    .boxnotice,
+    .boxnotice2,
+    .boxnotice3,
+    .boxnotice4 {
+        width: 175px;
+        margin: auto;
+        height: auto;
+
+
+    }
+
+
+
+
+    .recentcustomer h3,
+    .recentseller h3 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        border-bottom: 3px solid rgba(88, 57, 166, 0.493);
+        padding: 5px;
+
+    }
+
+
+
+
+
+    .boxnotice h3,
+    .boxnotice2 h3,
+    .boxnotice3 h3,
+    .boxnotice4 h3 {
+        font-size: 14px;
+    }
+
+    .boxnotice h2,
+    .boxnotice2 h2,
+    .boxnotice3 h2,
+    .boxnotice4 h2 {
+        font-size: 14px;
+        
+    }
+
+    .boxnotice-icon,
+    .boxnotice2-icon,
+    .boxnotice3-icon,
+    .boxnotice4-icon {
+
+        font-size: 28px;
+    }
+
+
+
+
+    .pnum,
+    .pnum2,
+    .pnum3,
+    .pnum4 {
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .main-boxnotice {
+        height: 25vh;
+    }
+
+    .boxnotice p,
+    .boxnotice2 p,
+    .boxnotice3 p,
+    .boxnotice4 p {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1440px)
+{
+
+    .boxnotice,
+    .boxnotice2,
+    .boxnotice3,
+    .boxnotice4 {
+        width: 250px;
+        margin: auto;
+        height: auto;
+
+
+    }
+
+
+
+
+    .recentcustomer h3,
+    .recentseller h3 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        border-bottom: 3px solid rgba(88, 57, 166, 0.493);
+        padding: 5px 15px;
+
+    }
+
+
+
+
+
+    .boxnotice h3,
+    .boxnotice2 h3,
+    .boxnotice3 h3,
+    .boxnotice4 h3 {
+        font-size: 14px;
+    }
+
+    .boxnotice h2,
+    .boxnotice2 h2,
+    .boxnotice3 h2,
+    .boxnotice4 h2 {
+        font-size: 14px;
+        
+    }
+
+    .boxnotice-icon,
+    .boxnotice2-icon,
+    .boxnotice3-icon,
+    .boxnotice4-icon {
+
+        font-size: 28px;
+    }
+
+
+
+
+    .pnum,
+    .pnum2,
+    .pnum3,
+    .pnum4 {
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .main-boxnotice {
+        height: 25vh;
+    }
+
+    .boxnotice p,
+    .boxnotice2 p,
+    .boxnotice3 p,
+    .boxnotice4 p {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+
+}

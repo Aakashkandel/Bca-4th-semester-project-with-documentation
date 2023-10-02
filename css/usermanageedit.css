@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+ font-family: 'Barlow', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+}
+body{
+    background-color: rgb(3, 20, 35);
+    
+}
+.createmain-container{
+    
+background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.2px);
+-webkit-backdrop-filter: blur(7.2px);
+border: 1px solid rgba(255, 255, 255, 0.16);
+    width:120vh;
+    height:60vh;
+    padding:0px 15px;
+    
+    
+
+}
+.createmain-container form{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    
+
+}
+.formdiv{
+    margin-top:12px;
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border-radius:15px;
+    margin-right: 10px;
+    padding:15px;
+    align-items: center;
+}
+.sellicon{
+    font-size:20px;
+    text-align: center;
+    padding-top:10px;
+    
+}
+.createmain-container form input{
+font-size:18px;
+padding:2px 2px 2px 10px; 
+border:none;
+margin-left:10px;
+border-radius:15px;
+
+}
+.createmain-container-inner h3{
+    text-align: center;
+    background-color: blue;
+    width:300px;
+    margin: 20px auto;
+    color:white;
+    border-radius: 15px;
+    padding:5px;
+}
+.sellercreatebtn{
+    
+    margin :12px;
+    text-align: center;
+    padding:7px;
+
+}
+.sellercreatebtn a{
+    text-decoration: none;
+    background-color: white;
+    padding:5px 10px;
+    color:black;
+    border-radius:15px;
+    margin:0px 10px;
+}
+
+.sellercreatebtn input{
+    background-color:blue;
+    color:white;
+    padding:5px 10px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.createbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+
+
+.adminmain-container{
+    display:flex;
+    max-width: 100%;
+}
+.dashdiv{
+    flex:1;
+    /* max-width: 100%; */
+    margin-left: 65px;
+}
+.menudiv{
+   position:fixed;
+     z-index: 999; 
+    width: 200px;
+
+
+}
